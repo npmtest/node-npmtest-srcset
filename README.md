@@ -1,6 +1,6 @@
 # npmtest-srcset
 
-#### test coverage for  [srcset (v1.0.0)](https://github.com/sindresorhus/srcset#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-srcset.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-srcset) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-srcset.svg)](https://travis-ci.org/npmtest/node-npmtest-srcset)
+#### basic test coverage for  [srcset (v1.0.0)](https://github.com/sindresorhus/srcset#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-srcset.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-srcset) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-srcset.svg)](https://travis-ci.org/npmtest/node-npmtest-srcset)
 
 #### Parse and stringify the HTML <img> srcset attribute
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-srcset/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-srcset/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-srcset/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-srcset/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-srcset/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-srcset/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-srcset/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-srcset/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-srcset/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-srcset/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-srcset/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-srcset/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
